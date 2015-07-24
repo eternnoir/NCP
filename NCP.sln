@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCP", "NCP\NCP.csproj", "{8321AE55-B863-41B1-A428-34BD9BF8E4D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCP.Test", "NCP.Test\NCP.Test.csproj", "{BFB8AFCF-6C8D-4DB7-AD33-0B602D54A422}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8321AE55-B863-41B1-A428-34BD9BF8E4D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8321AE55-B863-41B1-A428-34BD9BF8E4D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8321AE55-B863-41B1-A428-34BD9BF8E4D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8321AE55-B863-41B1-A428-34BD9BF8E4D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFB8AFCF-6C8D-4DB7-AD33-0B602D54A422}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFB8AFCF-6C8D-4DB7-AD33-0B602D54A422}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFB8AFCF-6C8D-4DB7-AD33-0B602D54A422}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFB8AFCF-6C8D-4DB7-AD33-0B602D54A422}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
