@@ -89,7 +89,8 @@ namespace NCP
             if (socketNumber <= maxConnectionNumber)
             {
                 System.Threading.Interlocked.Increment(ref socketNumber);
-                return new NcpClient(this.hostAddress, this.hostPort);
+                var c = new NcpClient();
+                return  c;
             }
             throw new Exception("Connection Pool reached its limit");
         }

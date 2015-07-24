@@ -10,9 +10,6 @@ namespace NCP
     public class NcpClient : TcpClient
     {
 
-        public NcpClient(string host, int port)
-            : base(host, port)
-        {
-        }
+
     }
 }
